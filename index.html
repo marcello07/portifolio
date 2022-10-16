@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/rolagem.css">
+    <title>Portifólio - Marcello Andrade</title>
+   
+</head>
+<body> <!--entre parênteses, o código da fonte <link> em head(font-family: 'Comfortaa', cursive;)-->
+    <main class="cartao">
+        <div class="info-b">
+            <img src="./src/images/foto-perfil-cello.jpg" alt="foto-perfil">
+            <h1 class="nome">Marcello Andrade</h1>
+            <h2 class="cargo">Desenvolvedor Frontend Júnior</h2>
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas"> <!-- a tag ul significa lista desordenada-->
+                <li class="aba selecionado" id="sobre-mim"> <!-- a tag li significa lista (estrita)-->
+                    <img src="./src/images/sobre-i.gif" alt="about icon">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/images/envelop.gif" alt="contact icon">
+                </li>
+            </ul>
+            <div class="info-abas">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+                    <div class="descricao">
+                        <p>Olá! Meu nome é Marcello, seja bem vindo ao meu perfil!<p> <!--as teclas alt+z quebram o texto-->
+                        <p>Sempre gostei da àrea de computação e recentemente me encontrei com o desenvolvimento web <span>(HTML, CSS e JavaScript)</span>.</p>
+                        <p>Atualmente faço uma graduação tecnológica de Análise e Desenvolvimento de Sistemas na UNINABUCO, 
+                        também curso Direito na UEPB e sou astrônomo amador no tempo livre!</p>
+                    </div>
+                </div>
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Contatos</h3>
+                    <ul class="lista-redes">
+                        <li>
+                            <a href="https://drive.google.com/file/d/16aXfEVbNIZzya3Qw1_lCGkn55IWtFGir/view?usp=drivesdk" target="_blank" class="curriculo">Currículo</a>
+                        </li>
+                        <li>
+                            <a href="linkedin.com/in/marcello-andrade-75a549213" target="_blank" class="linkedin">Linkedin</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/marcello07" target="_blank" class="github">GitHub</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
